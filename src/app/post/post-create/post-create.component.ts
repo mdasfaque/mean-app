@@ -22,5 +22,6 @@ title: form.value.title,
 content: form.value.content
 };
 this.postCreated.emit(post);
+console.log(post);
   }
 }
